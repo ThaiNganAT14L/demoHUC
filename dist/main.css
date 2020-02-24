@@ -1,0 +1,136 @@
+body {
+  margin: 0; }
+  body * {
+    color: #555; }
+  body .header-login {
+    min-height: 188px;
+    width: 100vw;
+    background-image: linear-gradient(-180deg, #2DCEFF 2%, #00B9F2 100%);
+    padding: 2% 5%; }
+    body .header-login .brand {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      cursor: pointer; }
+  body .main-login {
+    padding: 0 5%;
+    margin-top: -90px; }
+    body .main-login .bottom-header {
+      padding: 40px 70px;
+      max-width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid transparent;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.116), 0 0 0 1px rgba(63, 63, 68, 0.158);
+      border-radius: 5px;
+      padding: 0 5%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box; }
+      body .main-login .bottom-header h1 {
+        font-size: 2.5em; }
+      body .main-login .bottom-header .tittle {
+        font-weight: 500; }
+      body .main-login .bottom-header .loginWith {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        body .main-login .bottom-header .loginWith .loginWith-item {
+          background-color: #f9f9f9;
+          border: 1px solid #a1a7b3;
+          box-sizing: border-box;
+          height: 40px;
+          width: 250px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          white-space: nowrap;
+          margin-bottom: 20px;
+          text-decoration: none; }
+          body .main-login .bottom-header .loginWith .loginWith-item .icon svg {
+            width: 25px;
+            height: 25px; }
+          body .main-login .bottom-header .loginWith .loginWith-item:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: 1s; }
+      body .main-login .bottom-header .signin-email {
+        width: 100%;
+        display: flex;
+        flex-direction: column; }
+        body .main-login .bottom-header .signin-email > div {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          margin-bottom: 15px; }
+          body .main-login .bottom-header .signin-email > div label {
+            text-align: left;
+            margin-bottom: 5px; }
+          body .main-login .bottom-header .signin-email > div input {
+            box-sizing: border-box;
+            height: 35px;
+            padding: 10px;
+            border-radius: 5px;
+            border: solid 1px #a1a7b3; }
+            body .main-login .bottom-header .signin-email > div input:focus {
+              outline: 0;
+              box-shadow: 0 0 0 0.1rem rgba(52, 144, 220, 0.171); }
+      body .main-login .bottom-header .forget-pass {
+        width: 100%;
+        color: #1dc7ea;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-decoration: none;
+        cursor: pointer; }
+        body .main-login .bottom-header .forget-pass:hover {
+          text-decoration: underline;
+          opacity: 0.8; }
+      body .main-login .bottom-header .btn-signIn {
+        background-color: #ff9500;
+        width: 250px;
+        height: 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none; }
+        body .main-login .bottom-header .btn-signIn:hover {
+          opacity: 0.8; }
+      body .main-login .bottom-header .href-register {
+        font-size: 1.1em;
+        margin: 5px; }
+        body .main-login .bottom-header .href-register a {
+          color: #1dc7ea;
+          font-weight: bold;
+          cursor: pointer; }
+          body .main-login .bottom-header .href-register a:hover {
+            opacity: 0.5; }
+      body .main-login .bottom-header .footer-main {
+        border-top: 1px solid #a1a7b3;
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px 0;
+        text-align: end;
+        font-size: .95em;
+        color: #111; }
+        body .main-login .bottom-header .footer-main a {
+          text-decoration: none;
+          cursor: pointer; }
+          body .main-login .bottom-header .footer-main a:nth-child(1) {
+            margin-right: 15px; }
+          body .main-login .bottom-header .footer-main a:hover {
+            color: black;
+            text-decoration: underline; }
+
+@media only screen and (min-width: 576px) {
+  .loginWith {
+    flex-direction: row !important; }
+    .loginWith .loginWith-fb {
+      margin-right: 10px; } }
+
