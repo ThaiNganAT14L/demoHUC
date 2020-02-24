@@ -1,8 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 body {
+  font-family: 'Roboto';
   margin: 0; }
   body * {
     color: #555; }
   body .header-login {
+    box-sizing: border-box;
     min-height: 188px;
     width: 100vw;
     background-image: linear-gradient(-180deg, #2DCEFF 2%, #00B9F2 100%);
@@ -49,13 +52,14 @@ body {
           align-items: center;
           white-space: nowrap;
           margin-bottom: 20px;
-          text-decoration: none; }
+          text-decoration: none;
+          border-radius: 5px; }
           body .main-login .bottom-header .loginWith .loginWith-item .icon svg {
             width: 25px;
             height: 25px; }
           body .main-login .bottom-header .loginWith .loginWith-item:hover {
             background-color: rgba(0, 0, 0, 0.1);
-            transition: 1s; }
+            transition: 0.5s; }
       body .main-login .bottom-header .signin-email {
         width: 100%;
         display: flex;
@@ -99,7 +103,8 @@ body {
         justify-content: center;
         align-items: center;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        border-radius: 5px; }
         body .main-login .bottom-header .btn-signIn:hover {
           opacity: 0.8; }
       body .main-login .bottom-header .href-register {
