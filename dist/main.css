@@ -54,9 +54,11 @@ body {
           margin-bottom: 20px;
           text-decoration: none;
           border-radius: 5px; }
-          body .main-login .bottom-header .loginWith .loginWith-item .icon svg {
-            width: 25px;
-            height: 25px; }
+          body .main-login .bottom-header .loginWith .loginWith-item .icon {
+            margin-right: 5px; }
+            body .main-login .bottom-header .loginWith .loginWith-item .icon svg {
+              width: 25px;
+              height: 25px; }
           body .main-login .bottom-header .loginWith .loginWith-item:hover {
             background-color: rgba(0, 0, 0, 0.1);
             transition: 0.5s; }
